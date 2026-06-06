@@ -8,11 +8,14 @@
 
 ## 📑 目录
 
-- [🌐 网站 Websites](#-网站-websites)
-- [🛠️ 工具 Tools](#️-工具-tools)
-- [📚 学习资源 Learning](#-学习资源-learning)
-- [💡 灵感 / 笔记 Notes](#-灵感--笔记-notes)
-- [📌 其他 Others](#-其他-others)
+- [🗂️ Seqora Entry Point](#️-seqora-entry-point)
+  - [📑 目录](#-目录)
+  - [🌐 网站 Websites](#-网站-websites)
+  - [🛠️ 工具 Tools](#️-工具-tools)
+  - [|工控探险工坊|https://factory-quest.vercel.app/|用搭建一座工厂的方式，理解 PLC、I/O、Runtime 和工程流程|](#工控探险工坊httpsfactory-questvercelapp用搭建一座工厂的方式理解-plcioruntime-和工程流程)
+  - [📚 学习资源 Learning](#-学习资源-learning)
+  - [💡 灵感 / 笔记 Notes](#-灵感--笔记-notes)
+  - [📌 其他 Others](#-其他-others)
 
 ---
 
@@ -32,8 +35,8 @@
 
 | 名称 | 链接 | 说明 |
 |------|------|------|
-| _示例_ | https://example.com | 这里填写说明 |
-
+|动态效果生成器|https://vibe-motion-web-zeta.vercel.app/|快速生成适合视频剪辑、日常工作汇报的专业动态效果|
+|工控探险工坊|https://factory-quest.vercel.app/|用搭建一座工厂的方式，理解 PLC、I/O、Runtime 和工程流程|
 ---
 
 ## 📚 学习资源 Learning
