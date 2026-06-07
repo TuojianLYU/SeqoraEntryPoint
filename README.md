@@ -21,6 +21,7 @@ Codex / agent skills 放在这里统一索引。源码放在 `skills/<skill-name
 | 名称 | 路径 | 下载 | 用途 |
 |------|------|------|------|
 | Serenity Market Strategy | `skills/serenity-market-strategy` | [zip](https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/serenity-market-strategy.zip) | 用 Serenity 启发的投资研究框架分析市场方向、标的、AI/半导体供应链瓶颈、隐藏受益方、催化剂、错价和风险 |
+| Generate OpenPLC Runtime v4 Project | `skills/generate-openplc-runtime-v4-project` | [zip](https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/generate-openplc-runtime-v4-project.zip) | 生成、修改、检查和校验 OpenPLC Runtime v4 导出工程，覆盖 `project.json`、设备配置、OPC UA、以及 IEC 声明头 + JSON 图模型的 `.ld` 梯形图文件 |
 
 ### Skill 安装示例
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate OpenPLC Runtime v4 Project"
+  short_description: "Generate and validate OpenPLC Runtime v4 exports"
+  default_prompt: "Use $generate-openplc-runtime-v4-project to generate or modify an OpenPLC Runtime v4 project and validate its cross-file semantics."
