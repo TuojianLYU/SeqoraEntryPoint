@@ -20,21 +20,21 @@ Codex / agent skills 放在这里统一索引。源码放在 `skills/<skill-name
 
 | 名称 | 路径 | 下载 | 用途 |
 |------|------|------|------|
-| Serenity Research Posts | `skills/serenity-research-posts` | [zip](https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/serenity-research-posts.zip) | 把 AI、半导体、供应链、硬件瓶颈、tickers 和催化剂 notes 转成结构清晰的研究帖 |
+| Serenity Market Strategy | `skills/serenity-market-strategy` | [zip](https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/serenity-market-strategy.zip) | 用 Serenity 启发的投资研究框架分析市场方向、标的、AI/半导体供应链瓶颈、隐藏受益方、催化剂、错价和风险 |
 
 ### Skill 安装示例
 
 PowerShell:
 
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/serenity-research-posts.zip" -OutFile "serenity-research-posts.zip"
-Expand-Archive -Path "serenity-research-posts.zip" -DestinationPath "$env:USERPROFILE\.codex\skills" -Force
+Invoke-WebRequest -Uri "https://github.com/TuojianLYU/SeqoraEntryPoint/raw/main/dist/serenity-market-strategy.zip" -OutFile "serenity-market-strategy.zip"
+Expand-Archive -Path "serenity-market-strategy.zip" -DestinationPath "$env:USERPROFILE\.codex\skills" -Force
 ```
 
 调用示例：
 
 ```text
-Use $serenity-research-posts to turn my notes into a rigorous AI/semi supply-chain research post.
+Use $serenity-market-strategy to analyze NVDA, MRVL, AAOI, and the broader AI semi setup through bottlenecks, catalysts, materiality, and risks.
 ```
 
 ## 工具 Tools

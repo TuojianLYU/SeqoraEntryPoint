@@ -1,4 +1,0 @@
-interface:
-  display_name: "Serenity Research Posts"
-  short_description: "Draft AI/semi supply-chain research posts."
-  default_prompt: "Use $serenity-research-posts to turn my notes into a rigorous AI/semi supply-chain research post."

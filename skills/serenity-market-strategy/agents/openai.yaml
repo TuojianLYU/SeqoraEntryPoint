@@ -1,0 +1,4 @@
+interface:
+  display_name: "Serenity Market Strategy"
+  short_description: "Analyze markets with bottleneck and mispricing research."
+  default_prompt: "Use $serenity-market-strategy to analyze this ticker or market setup through bottlenecks, catalysts, materiality, and risks."
