@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Seqora Entry Point resource index synced from README.md">
+    <title>Seqora Entry Point</title>
+    <link rel="icon" href="assets/seqora-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Seqora Entry Point home">
+        <img src="assets/seqora-mark.svg" alt="" width="34" height="34">
+        <span>Seqora Entry Point</span>
+      </a>
+      <nav class="nav" aria-label="Resource categories">
+        <a href="#skills">Skills</a>
+        <a href="#tools">Tools</a>
+        <a href="#websites">Websites</a>
+        <a href="#learning">Learning</a>
+        <a href="#notes">Notes</a>
+      </nav>
+    </header>
+
+    <main id="top" class="layout">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">README-synced resource index</p>
+          <h1 id="page-title">Seqora Entry Point</h1>
+          <p id="intro-copy" class="lede">Loading resources from README.md...</p>
+        </div>
+        <div class="status-panel" aria-live="polite">
+          <span class="status-label">Source</span>
+          <a href="README.md">README.md</a>
+          <span id="sync-status">Syncing</span>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Resource filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="resource-search" type="search" placeholder="Search skills, tools, links...">
+        </label>
+        <div id="resource-count" class="count">0 resources</div>
+      </section>
+
+      <section id="skills" class="resource-section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Codex / agent</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div id="skills-grid" class="resource-grid"></div>
+      </section>
+
+      <section id="tools" class="resource-section" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <p class="eyebrow">Web apps</p>
+          <h2 id="tools-title">工具 Tools</h2>
+        </div>
+        <div id="tools-grid" class="resource-grid"></div>
+      </section>
+
+      <section id="websites" class="resource-section" aria-labelledby="websites-title">
+        <div class="section-heading">
+          <p class="eyebrow">Links</p>
+          <h2 id="websites-title">网站 Websites</h2>
+        </div>
+        <div id="websites-grid" class="resource-grid"></div>
+      </section>
+
+      <section id="learning" class="resource-section" aria-labelledby="learning-title">
+        <div class="section-heading">
+          <p class="eyebrow">References</p>
+          <h2 id="learning-title">学习资源 Learning</h2>
+        </div>
+        <div id="learning-grid" class="resource-grid"></div>
+      </section>
+
+      <section id="others" class="resource-section" aria-labelledby="others-title">
+        <div class="section-heading">
+          <p class="eyebrow">Unsorted</p>
+          <h2 id="others-title">其他 Others</h2>
+        </div>
+        <div id="others-grid" class="resource-grid"></div>
+      </section>
+
+      <section id="notes" class="resource-section" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Scratchpad</p>
+          <h2 id="notes-title">灵感 / 笔记 Notes</h2>
+        </div>
+        <ul id="notes-list" class="notes"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Synced from README.md</span>
+      <a href="https://github.com/TuojianLYU/SeqoraEntryPoint">GitHub repo</a>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

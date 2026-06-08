@@ -7,6 +7,7 @@
 ## 目录
 
 - [Skills](#skills)
+- [Web 页面](#web-页面)
 - [工具 Tools](#工具-tools)
 - [网站 Websites](#网站-websites)
 - [学习资源 Learning](#学习资源-learning)
@@ -36,6 +37,28 @@ Expand-Archive -Path "serenity-market-strategy.zip" -DestinationPath "$env:USERP
 
 ```text
 Use $serenity-market-strategy to analyze NVDA, MRVL, AAOI, and the broader AI semi setup through bottlenecks, catalysts, materiality, and risks.
+```
+
+## Web 页面
+
+这个仓库包含一个和 README 同步的静态资源页：
+
+```text
+index.html
+```
+
+页面会直接读取 `README.md`，解析 Skills、Tools、Websites、Learning、Notes 和 Others 里的表格/条目。以后主要维护 README，网页会跟着更新。
+
+GitHub Pages 发布建议：
+
+1. 打开仓库 Settings。
+2. 进入 Pages。
+3. Source 选择 `Deploy from a branch`。
+4. Branch 选择 `main`，Folder 选择 `/root`。
+5. 发布后访问：
+
+```text
+https://tuojianlyu.github.io/SeqoraEntryPoint/
 ```
 
 ## 工具 Tools
@@ -88,6 +111,7 @@ Use $serenity-market-strategy to analyze NVDA, MRVL, AAOI, and the broader AI se
 | 网站链接 | 外部 URL | 在 [网站 Websites](#网站-websites) 表格新增一行 |
 | 学习资料 | 外部 URL 或仓库文件 | 在 [学习资源 Learning](#学习资源-learning) 表格新增一行 |
 | 临时想法 | README 笔记区或单独文档 | 先放 [灵感 / 笔记 Notes](#灵感--笔记-notes)，成熟后再移动到正式分类 |
+| Web 页面 | `index.html`、`assets/site.css`、`assets/app.js` | 默认读取 README，不单独维护第二份资源数据 |
 
 新增 skill 的建议流程：
 
@@ -96,4 +120,4 @@ Use $serenity-market-strategy to analyze NVDA, MRVL, AAOI, and the broader AI se
 3. 在 README 的 Skills 表格新增条目。
 4. 提交并推送到 GitHub。
 
-_最后更新：2026-06-07_
+_最后更新：2026-06-08_
